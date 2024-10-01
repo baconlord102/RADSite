@@ -1,3 +1,22 @@
+ .navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  transition: ease-in-out;
+ }
+ 
+ .navbar-nav {
+  display: flex;
+  align-items: center;
+ }
+ 
+ .navbar .container {
+  display: flex;
+  align-items: center;
+ }
+ 
  .navbar-brand {
   margin-right: auto;
   font-size: 2rem;
