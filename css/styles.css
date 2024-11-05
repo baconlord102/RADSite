@@ -183,10 +183,20 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 10
   padding: right;
 }
 
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: var(--size);
+}
+
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
   padding: var(--size-16);
+}
+
+.price-card .featured {
+  box-shadow: 0 10px 20px rgba(82, 179, 255, rgba(48, 63, 100, .2));
 }
 
 .price-card h3 {
