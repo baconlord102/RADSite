@@ -47,6 +47,7 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-size: 12px;
 }
 
 a {text-decoration: none;}
@@ -112,5 +113,6 @@ img {
 }
 
 @media (min-width: 760px) {
-  .pricing-table {max-width: 720px; }
+  .pricing-table,
+  .testimonial-grid {max-width: 720px; }
 }
