@@ -296,7 +296,9 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 10
 }
 
 footer.bg-footer {background-color: var(--footer);}
-footer .footer-bottom {background-color: var(--footer-base);}
+footer .footer-bottom {
+  background-color: var(--footer-base);
+}
 
 footer .footer-top {
   display: grid;
@@ -326,8 +328,8 @@ footer .footer-col {justify-content: center;}
 }
 
 .social-icons ul li a {
-color: var(--white);
-font-size: var(--size-16);
+  color: var(--white);
+  font-size: var(--size-16);
 }
 
 .services-wrapper p {color: #858497;}
@@ -361,7 +363,7 @@ font-size: var(--size-16);
   flex-wrap: wrap;
 }
 
-.footer-bottom {padding: var(--size-16) 0;}
+.footer-bottom {padding: var(--size-16);}
 
 .copyright p {color: var(--font-color-light);}
 
