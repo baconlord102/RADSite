@@ -52,7 +52,10 @@
   padding: 4.6875rem 0;
  }
 
-.bg-header {background-image: url(../assets/images/week-5-assets/bg-header-1.jpg);}
+.bg-header {
+  background-image: url(../assets/images/week-5-assets/bg-header-1.jpg);
+  padding:  var(--size-150) 0;
+}
 .video-header {background-image: url(../assets/images/week-5-assets/bg-demo.jpg);}
 
 
@@ -85,12 +88,13 @@
   padding: var(--size-150)0;
 }
 
-.why-me-wrapper div {
-  flex: 1;
+.why-me-wrapper .block-text {
+  padding-right: var(--size-50);
+  max-width: 35rem;
 }
 
-.block-text {
-  padding-right: var(--size-50);
+.why-me-wrapper div {
+  flex: 1;
 }
 
 .block-text span {
@@ -152,6 +156,7 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 10
 .video-demo .block-text h2, 
 .video-demo .block-text p {
   color: var(--white);
+  margin: var(--size-50) 0;
 }
 
 .video-btn {
@@ -195,7 +200,7 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 10
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);
+  padding: var(--size-40) var(--size-16);
 }
 
 .price-card .checked { color: var(--success);}
@@ -233,6 +238,7 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 10
 }
 
 .plan-btn-wrapper {text-align: center;}
+.plan-btn-wrapper a {width: 100%;}
 
 .testimonials {margin: var(--size-100) 0;}
 
@@ -313,6 +319,7 @@ footer .footer-col {justify-content: center;}
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
+  font-size: var(--size-16);
 }
 
 .contact-info li {
@@ -333,6 +340,8 @@ footer .footer-col {justify-content: center;}
 }
 
 .services-wrapper p {color: #858497;}
+.services-wrapper h5 {margin-bottom: initial;}
+
 
 .recent-posts {
   display: flex;
@@ -349,6 +358,7 @@ footer .footer-col {justify-content: center;}
 .post-inner h6 a {
   color: var(--white);
   font-weight: 600;
+  font-size: .75rem;
 }
 
 .post-inner span {
