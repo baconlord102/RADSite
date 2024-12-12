@@ -397,5 +397,18 @@
     <i class="fas fa-arrow-up"></i>
 </a>
 
+
+<script>
+    const navButton = document.querySelector('button[aria-expanded]');
+
+    function toggleNav({ target }){
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+    navButton.settAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+</script>
+
+
 </body>
 </html>
